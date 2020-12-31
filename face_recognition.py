@@ -206,6 +206,9 @@ if __name__ == '__main__':
     image, face = m.detect(frame)
     
     while True:
+        '''
+        ESC 혹은 Enter 입력 전까지 이미지 획득 및 판별하는 기능 수행
+        '''
         ret, frame = cap.read()
         image, face = m.detect(frame)
         try:
