@@ -3,3 +3,5 @@ config
 .vscode
 __pycache__
 .pyc
+
+venv
